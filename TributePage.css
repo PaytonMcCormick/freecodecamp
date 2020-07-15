@@ -1,0 +1,30 @@
+.title-block {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 15% auto 15%;
+}
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  border-color: black;
+  border-width: thick;
+  border-style: solid;
+  grid-column: 2 / 3;
+}
+body {
+  background-color: #fdad5c;
+}
+#image {
+  max-height: 50%;
+  max-width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#img-caption {
+  text-align: center;
+}
+.intro {
+  font-family: sans-serif;
+  text-align: center;
+}
